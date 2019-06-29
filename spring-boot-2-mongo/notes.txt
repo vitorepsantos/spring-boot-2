@@ -1,0 +1,5 @@
+$ docker run --name some-mongo -d mongo:latest
+
+
+http://blog.marcosbarbero.com/pt_BR/multiple-mongodb-connectors-in-spring-boot/
+https://spring.io/guides/gs/accessing-data-mongodb/

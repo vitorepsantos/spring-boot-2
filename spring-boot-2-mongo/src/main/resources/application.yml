@@ -1,0 +1,9 @@
+mongodb:
+  primary:
+    host: 172.17.0.2
+    port: 27017
+    database: second
+
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration

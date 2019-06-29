@@ -1,0 +1,8 @@
+https://hub.docker.com/_/memcached
+$ docker run --name my-memcache -d memcached
+$ docker ps
+$ docker inspect my-memcache
+
+
+https://github.com/ragnor/simple-spring-memcached
+https://github.com/ragnor/simple-spring-memcached/wiki/Getting-Started
