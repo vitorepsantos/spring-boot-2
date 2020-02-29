@@ -1,6 +1,5 @@
 package br.code;
 
-import br.code.account.Account;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

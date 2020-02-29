@@ -1,6 +1,10 @@
 package br.code.account;
 
-public class Account {
+import org.springframework.stereotype.Component;
+
+@Component
+public class AccountEntity {
+
     int balance = 20;
 
     public boolean withdraw(int amount) {

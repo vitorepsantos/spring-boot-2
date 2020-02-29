@@ -15,11 +15,11 @@ public class AccountAspect {
     private Logger logger = Logger.getLogger(AccountAspect.class.getName());
 
     @Pointcut("execution(* br.code.account.*.*(..))")
-    public void repositoryMethods() {}
+    public void allMethodsInPackage() {}
 
-    @Before("repositoryMethods()")
-    public void logMethodCall(JoinPoint jp) {
-        System.out.println("TESTE");
+    @Before("allMethodsInPackage()")
+    public void logAllMethodsInPackageBefore(JoinPoint jp) {
+        logger.info("logAllMethodsInPackageBefore");
     }
 
 }
